@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\asus\eclipse-workspace\Project_Maven\Amazon_testng_edge.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test09" class="method navigator-link" hash-for-method="Add_to_Wishlist_Add_to_Cart">Add_to_Wishlist_Add_to_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test15" class="method navigator-link" hash-for-method="add_to_cart_without_login">add_to_cart_without_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test10" class="method navigator-link" hash-for-method="check_update_quantities_remove_add_to_cart">check_update_quantities_remove_add_to_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test14" class="method navigator-link" hash-for-method="give_five_star_rating">give_five_star_rating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test02" class="method navigator-link" hash-for-method="login_to_amazon">login_to_amazon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test05" class="method navigator-link" hash-for-method="login_to_amazon_search_a_product">login_to_amazon_search_a_product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test01" class="method navigator-link" hash-for-method="registration">registration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test08" class="method navigator-link" hash-for-method="sort_by_price_low_to_high">sort_by_price_low_to_high</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test07" class="method navigator-link" hash-for-method="test_details_price_reviews_description">test_details_price_reviews_description</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test06" class="method navigator-link" hash-for-method="verify_searching_with_filters_category_price_range">verify_searching_with_filters_category_price_range</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="packagemaven.Project_Maven.Test04" class="method navigator-link" hash-for-method="verify_user_info_edit">verify_user_info_edit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_to_amazon_search_a_product">
+                  </a> <!-- login_to_amazon_search_a_product -->
+                  <span class="method-name">login_to_amazon_search_a_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_to_amazon">
+                  </a> <!-- login_to_amazon -->
+                  <span class="method-name">login_to_amazon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="give_five_star_rating">
+                  </a> <!-- give_five_star_rating -->
+                  <span class="method-name">give_five_star_rating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test07</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_details_price_reviews_description">
+                  </a> <!-- test_details_price_reviews_description -->
+                  <span class="method-name">test_details_price_reviews_description</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_to_cart_without_login">
+                  </a> <!-- add_to_cart_without_login -->
+                  <span class="method-name">add_to_cart_without_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check_update_quantities_remove_add_to_cart">
+                  </a> <!-- check_update_quantities_remove_add_to_cart -->
+                  <span class="method-name">check_update_quantities_remove_add_to_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test09</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_to_Wishlist_Add_to_Cart">
+                  </a> <!-- Add_to_Wishlist_Add_to_Cart -->
+                  <span class="method-name">Add_to_Wishlist_Add_to_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test08</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_by_price_low_to_high">
+                  </a> <!-- sort_by_price_low_to_high -->
+                  <span class="method-name">sort_by_price_low_to_high</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_info_edit">
+                  </a> <!-- verify_user_info_edit -->
+                  <span class="method-name">verify_user_info_edit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_searching_with_filters_category_price_range">
+                  </a> <!-- verify_searching_with_filters_category_price_range -->
+                  <span class="method-name">verify_searching_with_filters_category_price_range</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">packagemaven.Project_Maven.Test01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registration">
+                  </a> <!-- registration -->
+                  <span class="method-name">registration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\asus\eclipse-workspace\Project_Maven\Amazon_testng_edge.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing on edge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test01&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test02&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test04&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test05&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test06&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test07&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test08&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test09&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test10&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test14&quot;/&gt;
+      &lt;class name=&quot;packagemaven.Project_Maven.Test15&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing on edge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing on edge (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Add_to_Wishlist_Add_to_Cart')
+data.setCell(0, 2, 'packagemaven.Project_Maven.Test09')
+data.setCell(0, 3, 52944);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'check_update_quantities_remove_add_to_cart')
+data.setCell(1, 2, 'packagemaven.Project_Maven.Test10')
+data.setCell(1, 3, 46509);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'give_five_star_rating')
+data.setCell(2, 2, 'packagemaven.Project_Maven.Test14')
+data.setCell(2, 3, 23595);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'add_to_cart_without_login')
+data.setCell(3, 2, 'packagemaven.Project_Maven.Test15')
+data.setCell(3, 3, 19708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_user_info_edit')
+data.setCell(4, 2, 'packagemaven.Project_Maven.Test04')
+data.setCell(4, 3, 18347);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login_to_amazon_search_a_product')
+data.setCell(5, 2, 'packagemaven.Project_Maven.Test05')
+data.setCell(5, 3, 13170);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registration')
+data.setCell(6, 2, 'packagemaven.Project_Maven.Test01')
+data.setCell(6, 3, 9488);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_details_price_reviews_description')
+data.setCell(7, 2, 'packagemaven.Project_Maven.Test07')
+data.setCell(7, 3, 9014);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sort_by_price_low_to_high')
+data.setCell(8, 2, 'packagemaven.Project_Maven.Test08')
+data.setCell(8, 3, 7842);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login_to_amazon')
+data.setCell(9, 2, 'packagemaven.Project_Maven.Test02')
+data.setCell(9, 3, 6597);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_searching_with_filters_category_price_range')
+data.setCell(10, 2, 'packagemaven.Project_Maven.Test06')
+data.setCell(10, 3, 5364);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Add_to_Wishlist_Add_to_Cart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_user_info_edit</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">add_to_cart_without_login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">give_five_star_rating</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sort_by_price_low_to_high</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_to_amazon_search_a_product</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">check_update_quantities_remove_add_to_cart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_to_amazon</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test_details_price_reviews_description</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registration</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_searching_with_filters_category_price_range</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case is started</span>
+                <span class="reporter-method-output">Test case is  passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registration</span>
+                <span class="method-start">6005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">15501 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">18875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_to_amazon</span>
+                <span class="method-start">24215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">30813 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">34162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_user_info_edit</span>
+                <span class="method-start">38379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">56726 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">60072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_to_amazon_search_a_product</span>
+                <span class="method-start">66311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">79485 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test06</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">82810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_searching_with_filters_category_price_range</span>
+                <span class="method-start">87397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">92762 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test07</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">96166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_details_price_reviews_description</span>
+                <span class="method-start">100474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">109489 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test08</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">112828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sort_by_price_low_to_high</span>
+                <span class="method-start">117561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">125404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test09</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">128740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Add_to_Wishlist_Add_to_Cart</span>
+                <span class="method-start">134441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">187385 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">190739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">check_update_quantities_remove_add_to_cart</span>
+                <span class="method-start">197169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">243678 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test14</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">247079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">give_five_star_rating</span>
+                <span class="method-start">251602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">275197 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">packagemaven.Project_Maven.Test15</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launch(edge)</span>
+                <span class="method-start">278546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">add_to_cart_without_login</span>
+                <span class="method-start">283143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">302854 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

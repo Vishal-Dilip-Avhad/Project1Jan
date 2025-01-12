@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is started]]>
+    </line>
+    <line>
+      <![CDATA[Test case is  passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-12T19:00:15 IST" name="Suite" finished-at="2025-01-12T19:05:07 IST" duration-ms="291857">
+    <groups>
+    </groups>
+    <test started-at="2025-01-12T19:00:15 IST" name="Testing on edge" finished-at="2025-01-12T19:05:07 IST" duration-ms="291857">
+      <class name="packagemaven.Project_Maven.Test10">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test10@408d971b]" started-at="2025-01-12T19:03:16 IST" name="launch" finished-at="2025-01-12T19:03:22 IST" duration-ms="5236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="check_update_quantities_remove_add_to_cart()[pri:0, instance:packagemaven.Project_Maven.Test10@408d971b]" started-at="2025-01-12T19:03:22 IST" name="check_update_quantities_remove_add_to_cart" finished-at="2025-01-12T19:04:08 IST" duration-ms="46437" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- check_update_quantities_remove_add_to_cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test10@408d971b]" started-at="2025-01-12T19:04:08 IST" name="quit" finished-at="2025-01-12T19:04:10 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test10 -->
+      <class name="packagemaven.Project_Maven.Test14">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test14@6c6cb480]" started-at="2025-01-12T19:04:10 IST" name="launch" finished-at="2025-01-12T19:04:15 IST" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="give_five_star_rating()[pri:0, instance:packagemaven.Project_Maven.Test14@6c6cb480]" started-at="2025-01-12T19:04:15 IST" name="give_five_star_rating" finished-at="2025-01-12T19:04:38 IST" duration-ms="23863" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- give_five_star_rating -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test14@6c6cb480]" started-at="2025-01-12T19:04:39 IST" name="quit" finished-at="2025-01-12T19:04:41 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test14 -->
+      <class name="packagemaven.Project_Maven.Test02">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test02@5bf0d49]" started-at="2025-01-12T19:00:31 IST" name="launch" finished-at="2025-01-12T19:00:36 IST" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_to_amazon()[pri:0, instance:packagemaven.Project_Maven.Test02@5bf0d49]" started-at="2025-01-12T19:00:36 IST" name="login_to_amazon" finished-at="2025-01-12T19:00:42 IST" duration-ms="6595" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_to_amazon -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test02@5bf0d49]" started-at="2025-01-12T19:00:42 IST" name="quit" finished-at="2025-01-12T19:00:44 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test02 -->
+      <class name="packagemaven.Project_Maven.Test01">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test01@368f2016]" started-at="2025-01-12T19:00:15 IST" name="launch" finished-at="2025-01-12T19:00:20 IST" duration-ms="4794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="registration()[pri:0, instance:packagemaven.Project_Maven.Test01@368f2016]" started-at="2025-01-12T19:00:20 IST" name="registration" finished-at="2025-01-12T19:00:29 IST" duration-ms="9597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test01@368f2016]" started-at="2025-01-12T19:00:29 IST" name="quit" finished-at="2025-01-12T19:00:31 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test01 -->
+      <class name="packagemaven.Project_Maven.Test07">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test07@7c7a06ec]" started-at="2025-01-12T19:01:43 IST" name="launch" finished-at="2025-01-12T19:01:49 IST" duration-ms="5456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="test_details_price_reviews_description()[pri:0, instance:packagemaven.Project_Maven.Test07@7c7a06ec]" started-at="2025-01-12T19:01:49 IST" name="test_details_price_reviews_description" finished-at="2025-01-12T19:01:58 IST" duration-ms="9016" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_details_price_reviews_description -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test07@7c7a06ec]" started-at="2025-01-12T19:01:58 IST" name="quit" finished-at="2025-01-12T19:02:00 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test07 -->
+      <class name="packagemaven.Project_Maven.Test06">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test06@1d296da]" started-at="2025-01-12T19:01:31 IST" name="launch" finished-at="2025-01-12T19:01:36 IST" duration-ms="4682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verify_searching_with_filters_category_price_range()[pri:0, instance:packagemaven.Project_Maven.Test06@1d296da]" started-at="2025-01-12T19:01:36 IST" name="verify_searching_with_filters_category_price_range" finished-at="2025-01-12T19:01:41 IST" duration-ms="5291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_searching_with_filters_category_price_range -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test06@1d296da]" started-at="2025-01-12T19:01:41 IST" name="quit" finished-at="2025-01-12T19:01:43 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test06 -->
+      <class name="packagemaven.Project_Maven.Test05">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test05@776aec5c]" started-at="2025-01-12T19:01:11 IST" name="launch" finished-at="2025-01-12T19:01:16 IST" duration-ms="4533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="login_to_amazon_search_a_product()[pri:0, instance:packagemaven.Project_Maven.Test05@776aec5c]" started-at="2025-01-12T19:01:16 IST" name="login_to_amazon_search_a_product" finished-at="2025-01-12T19:01:29 IST" duration-ms="13769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_to_amazon_search_a_product -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test05@776aec5c]" started-at="2025-01-12T19:01:29 IST" name="quit" finished-at="2025-01-12T19:01:31 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test05 -->
+      <class name="packagemaven.Project_Maven.Test04">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test04@5b7a5baa]" started-at="2025-01-12T19:00:44 IST" name="launch" finished-at="2025-01-12T19:00:50 IST" duration-ms="5587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verify_user_info_edit()[pri:0, instance:packagemaven.Project_Maven.Test04@5b7a5baa]" started-at="2025-01-12T19:00:50 IST" name="verify_user_info_edit" finished-at="2025-01-12T19:01:09 IST" duration-ms="18990" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_user_info_edit -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test04@5b7a5baa]" started-at="2025-01-12T19:01:09 IST" name="quit" finished-at="2025-01-12T19:01:11 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test04 -->
+      <class name="packagemaven.Project_Maven.Test15">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test15@3c46e67a]" started-at="2025-01-12T19:04:41 IST" name="launch" finished-at="2025-01-12T19:04:45 IST" duration-ms="4728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="add_to_cart_without_login()[pri:0, instance:packagemaven.Project_Maven.Test15@3c46e67a]" started-at="2025-01-12T19:04:45 IST" name="add_to_cart_without_login" finished-at="2025-01-12T19:05:05 IST" duration-ms="19465" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_to_cart_without_login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test15@3c46e67a]" started-at="2025-01-12T19:05:05 IST" name="quit" finished-at="2025-01-12T19:05:07 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test15 -->
+      <class name="packagemaven.Project_Maven.Test09">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test09@557caf28]" started-at="2025-01-12T19:02:16 IST" name="launch" finished-at="2025-01-12T19:02:20 IST" duration-ms="4475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="Add_to_Wishlist_Add_to_Cart()[pri:0, instance:packagemaven.Project_Maven.Test09@557caf28]" started-at="2025-01-12T19:02:20 IST" name="Add_to_Wishlist_Add_to_Cart" finished-at="2025-01-12T19:03:14 IST" duration-ms="53806" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_to_Wishlist_Add_to_Cart -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test09@557caf28]" started-at="2025-01-12T19:03:14 IST" name="quit" finished-at="2025-01-12T19:03:16 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test09 -->
+      <class name="packagemaven.Project_Maven.Test08">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:packagemaven.Project_Maven.Test08@75d4a5c2]" started-at="2025-01-12T19:02:00 IST" name="launch" finished-at="2025-01-12T19:02:06 IST" duration-ms="5894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="sort_by_price_low_to_high()[pri:0, instance:packagemaven.Project_Maven.Test08@75d4a5c2]" started-at="2025-01-12T19:02:06 IST" name="sort_by_price_low_to_high" finished-at="2025-01-12T19:02:14 IST" duration-ms="8267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is started]]>
+            </line>
+            <line>
+              <![CDATA[Test case is  passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sort_by_price_low_to_high -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:packagemaven.Project_Maven.Test08@75d4a5c2]" started-at="2025-01-12T19:02:14 IST" name="quit" finished-at="2025-01-12T19:02:16 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- packagemaven.Project_Maven.Test08 -->
+    </test> <!-- Testing on edge -->
+  </suite> <!-- Suite -->
+</testng-results>

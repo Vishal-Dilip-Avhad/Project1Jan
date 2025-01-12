@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite" >
+  <test thread-count="5" name="Testing on edge">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="packagemaven.Project_Maven.Test01"/>
+      <class name="packagemaven.Project_Maven.Test02"/>
+   
+      <class name="packagemaven.Project_Maven.Test04"/>
+      <class name="packagemaven.Project_Maven.Test05"/>
+      <class name="packagemaven.Project_Maven.Test06"/>
+      <class name="packagemaven.Project_Maven.Test07"/>
+      <class name="packagemaven.Project_Maven.Test08"/>
+      <class name="packagemaven.Project_Maven.Test09"/>
+      <class name="packagemaven.Project_Maven.Test10"/>
+     
+   
+      <class name="packagemaven.Project_Maven.Test14"/>
+      <class name="packagemaven.Project_Maven.Test15"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
